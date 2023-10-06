@@ -101,7 +101,7 @@ body, h1, h2, h3, pre, code {
 
 /* Style the banner */
 .banner {
-    background-image: url('./img/hi.webp');
+    background-image: url('./src/hi.webp');
    height: 100vh;
    width: 100%;
    display: flex;
