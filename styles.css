@@ -86,30 +86,31 @@
     width: 100%;
 }
 */
-/* Reset some default styles */
+/* Reset some default styles 
 body, h1, h2, h3, pre, code {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
-/* Apply a background color to the entire page */
+/* Apply a background color to the entire page 
 .body {
     background-color: #f9f9f9;
     color: #333;
 }
 
-/* Style the banner */
+/* Style the banner 
 .banner {
-    background-image: url('./src/hi.webp');
+    background-image: url('https://www.bruegel.org/sites/default/files/styles/16_9_medium_with_focal/public/wp_images/-alex-siale-95113-unsplash.webp?h=e45be382&itok=B5xKDaR5');
    height: 100vh;
    width: 100%;
    display: flex;
    justify-content: center;
    align-items: center;
+   background-repeat: no-repeat;
 }
 
-/* Style the header */
+/* Style the header 
 .header {
     text-align: center;
     padding: 0px;
@@ -128,7 +129,7 @@ body, h1, h2, h3, pre, code {
     
 }
 
-/* Style the book chapter section */
+/* Style the book chapter section 
 .book-chapter {
     background-color: #fff;
     margin: 20px;
@@ -143,7 +144,7 @@ body, h1, h2, h3, pre, code {
     text-align: center;
 }
 
-/* Style the chapter content section */
+/* Style the chapter content section 
 .chapter-content {
     background-color: #fff;
     margin: 20px;
@@ -164,7 +165,7 @@ body, h1, h2, h3, pre, code {
     margin-top: 10px;
 }
 
-/* Style the code block */
+/* Style the code block 
 .code-container {
     white-space: nowrap;
     overflow-x: auto;
@@ -181,4 +182,98 @@ body, h1, h2, h3, pre, code {
     overflow-x: auto;
     display: block;
     color: #070707;
-}
+}*/
+body, h1, h2, h3, p, pre, code {
+    margin: 0;
+    padding: 0;
+  }
+  /* Applying for background color*/
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Style the header */
+  .header {
+    background-image: url(https://www.bruegel.org/sites/default/files/styles/16_9_medium_with_focal/public/wp_images/-alex-siale-95113-unsplash.webp?h=e45be382&itok=B5xKDaR5);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 28px;
+    color:#23f110;
+  }
+  
+  .author {
+    color: #fff;
+  }
+  
+  /* Style the book chapter section */
+  .book-chapter {
+    background-color:#fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .book-title {
+    font-size: 24px;
+    color: #cd1a1a;
+  }
+  
+  /* Style the chapter content section */
+  .chapter-content {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .section-title {
+    font-size: 20px;
+    color: #80566d;
+    margin-top: 20px;
+  }
+  
+  .section-text {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+   /*Style the code block */
+  .code {
+    background-color: #81c28a;
+    font-family:  monospace;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 0px;
+    margin-top: 10px;
+    overflow-x: auto;
+  }
+  
+  code {
+    display: block;
+    color: #070707;
+  }
+  
+  /* styles.css */
+    .code-container {
+    white-space: nowrap;
+    overflow-x: auto;
+    width: 100%;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
